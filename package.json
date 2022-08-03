@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "homepage": "https://zombigiraffe.github.io/noted-app",
     "@emotion/react": "^11.10.0",
