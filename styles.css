@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/graphy.png");
+  padding: 0 16px;
+}
+
+header {
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.note {
+  border-radius: 7px;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.dark-switch {
+  position: relative;
+  bottom: 55px;
+  float: right;
+}
+
+.header-icon {
+ transform: rotate(-8deg);
+}
+
+/* ----------------------------------------Theme area---------------------------------------- */
+
+#light header{
+  background-color: #f5ba13;
+}
+
+#light header h1{
+  color: #fff;
+}
+
+#light .note{
+  background: #fff;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+#light .note button {
+  color: #f5ba13;
+  background-color: #ffffff;
+}
+
+#light form.create-note{
+  background: #fff;
+}
+
+#light form.create-note button {
+  background: #f5ba13;
+  color: #fff;
+}
+
+#light input{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+#light textarea{
+  background-color: white;
+}
+
+/* ----------------------------------------Dark Theme---------------------------------------- */
+
+#dark body{
+  background-color: #222831
+}
+
+#dark header{
+  background-color: #00ADB5;
+}
+
+#dark header h1{
+  color: #fff;
+}
+
+#dark .note{
+  background: #393E46;
+  color: #fff;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+#dark .note button {
+  color: #00ADB5;
+  background-color: #393E46;
+}
+
+#dark form.create-note{
+  background: #393E46;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+#dark form.create-note button {
+  background: #00ADB5;
+  color: #393E46;
+}
+
+#dark input{
+  background-color: #393E46;
+  color: #fff;
+}
+
+#dark textarea{
+  background-color: #393E46;
+  color: #fff;
+}
+
+.theBody {
+  background-color: #000000;
+}
